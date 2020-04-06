@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Make:</strong>
+  <%= @bus.make %>
+</p>
+
+<p>
+  <strong>Model:</strong>
+  <%= @bus.model %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @bus.year %>
+</p>
+
+<%= link_to 'Edit', edit_bus_path(@bus) %> |
+<%= link_to 'Back', buses_path %>
